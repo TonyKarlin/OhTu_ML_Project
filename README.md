@@ -9,8 +9,8 @@
 Install packages:
 
 ```bash
-python -m pip install --upgrade pip
-python -m pip install pandas geopandas jupyter
+pip install --upgrade pip
+pip install pandas geopandas jupyter
 ```
 
 ## Run
