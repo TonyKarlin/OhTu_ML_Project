@@ -138,7 +138,7 @@ def accidents_by_place(df):
 		geometry=gpd.points_from_xy(accidents["Itä_coords"], accidents["Pohj_coords"]),
 		crs="EPSG:3879"
 	)	
-	vakavuus_area = accidents_geo.groupby(["Osa-alue","Vakavuus"]).size().unstack(fill_value=0)
+	vakavuus_area = accidents_geo.groupby(["Osa-alue","Vakavuus"], observed=True).size().unstack(fill_value=0)
 
 	for col in [1, 2, 3]:
 		if col not in vakavuus_area.columns:
