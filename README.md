@@ -17,4 +17,8 @@ pip install pandas geopandas jupyter
 
 Open and run the notebook:
 
-- `Liikenneonnettomuudet.ipynb` [Notebook](https://github.com/TonyKarlin/OhTu_ML_Project/blob/main/Liikenneonnettomuudet.ipynb)
+- `Liikenneonnettomuudet.ipynb`
+
+## View the Notebook
+
+[Notebook](https://github.com/TonyKarlin/OhTu_ML_Project/blob/main/Liikenneonnettomuudet.ipynb)
